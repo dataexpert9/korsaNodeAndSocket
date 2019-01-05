@@ -1,0 +1,17 @@
+{
+    "database": {
+        "connectionString": "mongodb://localhost:27017/KorsaLiveTracking"
+    },
+    "server": {
+        "hostname": "10.100.20.11",
+        "port": 5002,
+        "jwtSecret": "1@3$*(AbAc",
+        "jwtExpiration": "1m",
+        "routePrefix": "/api",
+        "plugins": [
+            "logger",
+            "jwt-auth",
+            "swagger"
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "typescript-node",
+  "version": "1.3.0",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/dwyl/hapi-typescript-example.git"
+  },
+  "author": "Talento90",
+  "keywords": [
+    "typescript",
+    "project structure",
+    "nodejs"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "tsc-watch": "tsc -w",
+    "start": "node build/src/index.js",
+    "setup": "npm install",
+    "test": "gulp test",
+    "watch": "nodemon --watch build/src build/src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "boom": "~7.1.0",
+    "dotenv": "^6.0.0",
+    "fcm-node": "^1.2.1",
+    "fs": "0.0.1-security",
+    "georedis": "^3.1.1",
+    "good": "^8.1.0",
+    "good-console": "^7.0.1",
+    "good-squeeze": "^5.0.2",
+    "google_directions": "^0.6.0",
+    "hapi": "17.2.0",
+    "hapi-auth-jwt2": "^8.0.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "~5.1.0",
+    "joi": "~13.1.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.4",
+    "nconf": "^0.10.0",
+    "node-image-resizer": "^1.0.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "redis-connection": "^5.4.0",
+    "vision": "~5.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.0",
+    "@types/boom": "^7.1.1",
+    "@types/chai": "^4.1.2",
+    "@types/hapi": "^17.0.0",
+    "@types/joi": "^13.0.5",
+    "@types/jsonwebtoken": "^7.2.0",
+    "@types/mocha": "^2.2.41",
+    "@types/mongoose": "^5.0.1",
+    "@types/nconf": "0.0.37",
+    "@types/node": "^9.4.5",
+    "@types/redis": "^2.8.6",
+    "@types/sinon": "^4.1.3",
+    "chai": "^4.1.2",
+    "form-data": "^2.3.2",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-mocha": "^5.0.0",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-tslint": "^8.0.0",
+    "mocha": "^5.0.0",
+    "moment": "^2.22.2",
+    "node": "9.5.0",
+    "sinon": "^4.3.0",
+    "socket.io": "^2.1.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.4.1"
+  },
+  "engines": {
+    "node": "8"
+  }
+}
